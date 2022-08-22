@@ -1,0 +1,10 @@
+#A = input()
+#B = input()
+#a = int(A)
+#b = int(B)
+#print(a+b)
+
+A = input()
+#sum = int(A[0]) + int(A[2])
+B = A.split()
+print(int(B[0])+int(B[1]))
